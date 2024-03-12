@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.example.recicleviewcomcardview'
-    compileSdk 32
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.recicleviewcomcardview"
         minSdk 24
-        targetSdk 32
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -34,12 +34,12 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.core:core-ktx:1.12.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.11.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    //implementation 'com.intuit.sdp:sdp-android:1.0.6'
-    //implementation 'com.intuit.sdp:ssp-android:1.0.6'
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    implementation 'com.intuit.sdp:ssp-android:1.0.6'
     implementation 'com.android.tools.external.com-intellij:uast:171.4249.33'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

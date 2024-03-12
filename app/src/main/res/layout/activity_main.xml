@@ -7,7 +7,7 @@
     android:background="@color/background"
     tools:context=".MainActivity">
 
-    <View
+   <View
         android:id="@+id/viewHearderBackground"
         android:layout_width="414dp"
         android:layout_height="136dp"
@@ -32,7 +32,6 @@
         android:layout_width="26dp"
         android:layout_height="26dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
         android:src="@drawable/ic_search"
         app:layout_constraintBottom_toBottomOf="@id/txt_Form"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,10 +65,12 @@
         android:layout_marginTop="16dp"
         android:text="@string/excluir_transmitidos"
 
+        android:textColor="#212121"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/txt_Form" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_Form"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/cardHeader"
@@ -101,13 +102,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <include layout="@layout/dashboard_item_1"/>
+            &lt;!&ndash;<include layout="@layout/dashboard_item_1"/>&ndash;&gt;
 
-            <include layout="@layout/dashboard_item_2"/>
+            &lt;!&ndash;<include layout="@layout/dashboard_item_2"/>
 
-           <include layout="@layout/dashboard_item_3"/>
+           <include layout="@layout/dashboard_item_3"/>&ndash;&gt;
 
-           <include layout="@layout/dashboard_item_4"/>
+           &lt;!&ndash;<include layout="@layout/dashboard_item_4"/>&ndash;&gt;
 
      </LinearLayout>
 
